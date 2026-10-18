@@ -15,6 +15,20 @@ python run.py --batch papers.txt     # 3 papers in, a week of content out
 python publish.py out/*/approvals.json   # schedules only approved posts
 ```
 
+## The 3 finished posts (what the rules ask for)
+
+All in [`final-posts/`](final-posts), each from a different paper, so they also show the pipeline working on three papers:
+
+| Format | Paper | Files |
+|---|---|---|
+| **Carousel** (6 slides, 4:5) | McLaren et al., Nat Metab 2024: South Asian men's metabolic response to weight gain | [`final-posts/carousel/`](final-posts/carousel) + caption |
+| **Static** (4:5 and 1:1) | Wilding et al., Diabetes Obes Metab 2022: what happens after treatment stops | [`final-posts/static/`](final-posts/static) + caption |
+| **Reel** (38 s, English + Hindi voiceover and subtitles) | Mechanick et al., Obes Rev 2025: protecting muscle | [`final-posts/reel/`](final-posts/reel) + caption |
+
+**Research / source sheet:** [`final-posts/SOURCES.md`](final-posts/SOURCES.md) traces every slide, the static post and every reel scene to the verbatim quote and the location in the paper it came from, and lists the claims the verifier threw out. The posts never name a prescription drug, promise weight loss, or show bodies.
+
+Everything else the pipeline made (all formats for all three papers, plus each paper's doctor review page) is in [`out/`](out) and on the gallery link above, where every file can be downloaded or taken as a ZIP per paper.
+
 ## Architecture
 
 ```
