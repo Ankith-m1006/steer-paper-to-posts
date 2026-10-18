@@ -1,0 +1,278 @@
+{
+ "paper": {
+  "source": "papers/A_regain.pdf",
+  "title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension.",
+  "citation": "Wilding et al., Diabetes Obes Metab 2022",
+  "url": "https://doi.org/10.1111/dom.14725",
+  "license": "cc by"
+ },
+ "claims": [
+  {
+   "id": "c1",
+   "finding": "From week 0 to week 68, mean weight loss was 17.3% (SD: 9.3%) with semaglutide and 2.0% (SD: 6.1%) with placebo; following treatment withdrawal, semaglutide and placebo participants regained 11.6 (SD: 7.7) and 1.9 (SD: 4.8) percentage points of lost weight, respectively, by week 120, resulting in net losses from week 0 to week 120 of 5.6% (SD: 8.9%) with semaglutide and 0.1% (SD: 5.8%) with placebo.",
+   "quote": "From week 0 to week 68, mean weight loss was 17.3% (SD: 9.3%) with semaglutide and 2.0% (SD: 6.1%) with placebo. Following treatment withdrawal, semaglutide and placebo participants regained 11.6 (SD: 7.7) and 1.9 (SD: 4.8) percentage points of lost weight, respectively, by week 120, resulting in net losses of 5.6% (SD: 8.9%) and 0.1% (SD: 5.8%), respectively, from week 0 to week 120.",
+   "loc": "p. 2",
+   "kind": "result",
+   "audience_value": 5,
+   "match": 1.0
+  },
+  {
+   "id": "c2",
+   "finding": "One year after stopping once-weekly subcutaneous semaglutide 2.4 mg and lifestyle intervention, participants regained two-thirds of their prior weight loss and experienced similar changes in cardiometabolic factors.",
+   "quote": "One year after withdrawal of once-weekly subcutaneous semaglutide 2.4 mg and lifestyle intervention, participants regained two-thirds of their prior weight loss, with similar changes in cardiometabolic variables.",
+   "loc": "p. 2",
+   "kind": "result",
+   "audience_value": 5,
+   "match": 1.0
+  },
+  {
+   "id": "c3",
+   "finding": "In the semaglutide arm, participants with week 0 to week 68 weight losses of < 5%, ≥ 5%-< 10%, ≥ 10%-< 15%, ≥ 15%-< 20%, and ≥ 20% had net weight changes from week 0 to week 120 of 4.2% (SD: 6.2%), –0.7% (SD: 5.9%), –1.8% (SD: 5.0%), –5.5% (SD: 7.2%), and –12.1% (SD: 8.9%), respectively.",
+   "quote": "Participants in the semaglutide arm with weight losses (i.e. < 5%, ≥ 5%-< 10%, ≥ 10%-< 15%, ≥ 15%-< 20% and ≥ 20%) from week 0 to week 68 had net weight changes from week 0 to week 120 of 4.2% (SD: 6.2%), –0.7% (SD: 5.9%), –1.8% (SD: 5.0%), –5.5% (SD: 7.2%) and –12.1% (SD: 8.9%), respectively.",
+   "loc": "p. 8",
+   "kind": "result",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c4",
+   "finding": "Among participants not using any obesity pharmacotherapy during the extension, mean weight changes from week 0 to week 120 were –5.6% (SD: 8.9%) in the semaglutide group and –0.3% (SD: 5.3%) in the placebo group.",
+   "quote": "Among the subgroup not using obesity pharmacotherapy, mean changes in body weight from week 0 to week 120 were –5.6% (SD: 8.9%) and –0.3% (SD: 5.3%) in the semaglutide and placebo arms, respectively.",
+   "loc": "p. 8",
+   "kind": "result",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c5",
+   "finding": "Among participants with prediabetes at baseline, 93.6% reverted to normoglycaemia at week 68 with semaglutide compared with 41.5% with placebo.",
+   "quote": "Among participants with prediabetes at baseline, numerically more participants reverted to normoglycaemia at week 68 with semaglutide than placebo (93.6% vs. 41.5%; Figure 3).",
+   "loc": "p. 9",
+   "kind": "result",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c6",
+   "finding": "At week 120, 43.3% of baseline prediabetes participants in the semaglutide arm maintained reversion to normoglycaemia compared to 34.0% in the placebo arm.",
+   "quote": "Although the deterioration was larger in the semaglutide arm, a relative improvement was maintained versus the placebo arm at week 120, with reversion to normoglycaemia in 43.3% versus 34.0% of participants with baseline prediabetes in the semaglutide and placebo arms, respectively.",
+   "loc": "p. 9",
+   "kind": "result",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c7",
+   "finding": "The lifestyle intervention comprised counselling every 4 weeks regarding diet (a 500 kcal daily deficit relative to total estimated energy expenditure at randomization) and physical activity (150 minutes per week).",
+   "quote": "The lifestyle intervention consisted of counselling every 4 weeks on diet (500 kcal deficit per day relative to total estimated energy expenditure at randomization) and physical activity (150 minutes per week).",
+   "loc": "p. 3",
+   "kind": "method",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c8",
+   "finding": "The main limitations of the extension study included its relatively small sample size compared to the main STEP 1 trial population and selecting trial sites based on highest main phase recruitment, which could cause selection bias.",
+   "quote": "The key limitations of the extension were the relatively small sample size compared with the main STEP 1 trial population and the selection of sites based on those with the highest recruitment in the STEP 1 main phase, which could introduce an element of selection bias.",
+   "loc": "p. 10",
+   "kind": "limitation",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c9",
+   "finding": "All extension phase analyses were exploratory, and no formal statistical significance testing was conducted.",
+   "quote": "In addition, all analyses were exploratory and thus no formal tests of statistical significance were performed.",
+   "loc": "p. 10",
+   "kind": "limitation",
+   "audience_value": 2,
+   "match": 1.0
+  }
+ ],
+ "rejected": [
+  {
+   "id": "c3",
+   "finding": "At week 120 (52 weeks off-treatment), a weight loss of 5% or higher from baseline was observed in 48.2% of participants (95 of 197) in the semaglutide arm compared with 22.6% (21 of 93) in the placebo arm.",
+   "quote": "At week 120, 5% or higher weight loss from baseline was observed in 48.2% of participants (95 of 197) in the semaglutide arm and in 22.6% (21 of 93) in the placebo arm.",
+   "loc": "p. 7",
+   "kind": "result",
+   "audience_value": 4,
+   "why": "numbers not in the quote: 52"
+  },
+  {
+   "id": "c8",
+   "finding": "After treatment was stopped, mean systolic and diastolic blood pressure increased in both groups and returned to baseline levels by week 120.",
+   "quote": "After treatment withdrawal, mean SBP and DBP increased in both treatment arms, reverting to baseline levels by week 120 (Figure 2 and Tables 2 and S1).",
+   "loc": "p. 9",
+   "kind": "result",
+   "audience_value": 4,
+   "why": "quote not found in the paper (best match 0.73)"
+  }
+ ],
+ "draft": {
+  "message": "When GLP-1 medicines stop without guidance, weight can return, which is why a doctor-led exit strategy and long-term habit support are essential.",
+  "reasoning": "Indian adults considering GLP-1 medicines often worry that any weight lost will return once treatment ends. This content addresses that exact concern using clinical trial data while explaining how Steer's doctor-led approach helps members build lasting habits and navigate a planned exit.",
+  "carousel": [
+   {
+    "role": "hook",
+    "kicker": "The Big Fear",
+    "headline": "Will the weight come back if you stop GLP-1 medicines?",
+    "emph": "come back",
+    "body": "Here is what clinical trial research shows happens to body weight when treatment ends.",
+    "claims": [
+     "c2"
+    ]
+   },
+   {
+    "role": "insight",
+    "kicker": "The Research",
+    "headline": "In trial participants, stopping treatment led to weight regain.",
+    "emph": "weight regain",
+    "body": "One year after stopping once-weekly subcutaneous GLP-1 medicine 2.4 mg and lifestyle intervention, participants regained two-thirds of their prior weight loss.",
+    "claims": [
+     "c2"
+    ]
+   },
+   {
+    "role": "insight",
+    "kicker": "The Numbers",
+    "headline": "Mean weight loss changed over 120 weeks.",
+    "emph": "changed",
+    "body": "From week 0 to week 68, mean weight loss was 17.3% with the medicine in this trial and 2.0% with placebo.",
+    "claims": [
+     "c1"
+    ]
+   },
+   {
+    "role": "meaning",
+    "kicker": "After Stopping",
+    "headline": "Net weight loss decreased after treatment ended.",
+    "emph": "decreased",
+    "body": "Following treatment withdrawal, participants on the medicine regained 11.6 percentage points of lost weight, resulting in net loss from week 0 to week 120 of 5.6%.",
+    "claims": [
+     "c1"
+    ]
+   },
+   {
+    "role": "meaning",
+    "kicker": "Blood Sugar",
+    "headline": "Prediabetes reversion shifted after treatment stopped.",
+    "emph": "shifted",
+    "body": "Among participants with prediabetes at baseline, 93.6% reverted to normoglycaemia at week 68 with the medicine, compared with 43.3% maintaining reversion at week 120.",
+    "claims": [
+     "c5",
+     "c6"
+    ]
+   },
+   {
+    "role": "cta",
+    "kicker": "Lose Well",
+    "headline": "Talk to a Steer doctor about a long-term plan.",
+    "emph": "Steer doctor",
+    "body": "Build habits built for Indian routines with a long-term plan made with your doctor, including what happens when the medicine stops.",
+    "claims": []
+   }
+  ],
+  "static": {
+   "headline": "What happens when GLP-1 medicines stop?",
+   "emph": "stop",
+   "sub": "Participants regained two-thirds of their prior weight loss one year after stopping. You need a long-term plan made with your doctor.",
+   "claims": [
+    "c2"
+   ]
+  },
+  "reel": [
+   {
+    "role": "hook",
+    "voice": "Are you worried that if you stop GLP-1 medicines, all the weight comes back?",
+    "on_screen": "Will weight return after stopping?",
+    "claims": [
+     "c2"
+    ]
+   },
+   {
+    "role": "insight",
+    "voice": "Research shows one year after stopping treatment and lifestyle intervention, participants regained two-thirds of weight loss.",
+    "on_screen": "Participants regained two-thirds of weight loss.",
+    "claims": [
+     "c2"
+    ]
+   },
+   {
+    "role": "meaning",
+    "voice": "From week 0 to week 68, mean weight loss was 17.3%, but after withdrawal participants regained 11.6 percentage points.",
+    "on_screen": "Mean loss 17.3%, then 11.6 percentage points regained.",
+    "claims": [
+     "c1"
+    ]
+   },
+   {
+    "role": "meaning",
+    "voice": "Among participants with prediabetes, 93.6% reverted to normoglycaemia at week 68, but 43.3% maintained it at week 120.",
+    "on_screen": "Prediabetes reversion shifted from 93.6% to 43.3%.",
+    "claims": [
+     "c5",
+     "c6"
+    ]
+   },
+   {
+    "role": "cta",
+    "voice": "Stop Googling. Talk to a Steer doctor for a long-term plan, including what happens when medicine stops.",
+    "on_screen": "Talk to a doctor at steerclub.com",
+    "claims": []
+   }
+  ],
+  "caption": "Is weight regain inevitable after stopping weight loss medicine? Research shows that one year after stopping once-weekly subcutaneous GLP-1 medicine 2.4 mg and lifestyle intervention, participants regained two-thirds of their prior weight loss. From week 0 to week 68, mean weight loss was 17.3% with the medicine, but after stopping, net loss dropped to 5.6% by week 120.\n\nAt Steer, we focus on doctor-led care, thorough screening, and long-term habit support. You need a long-term plan made with your doctor, including what happens when the medicine stops.\n\nBefore you start, hear it from a doctor, not a reel.\nsteerclub.com",
+  "caption_hinglish": "Kya medicine stop karne ke baad weight wapas aata hai? Research dikhati hai ki once-weekly subcutaneous GLP-1 medicine 2.4 mg aur lifestyle intervention stop karne ke ek saal baad, participants ne do-tihaai lost weight regain kar liya. Week 0 se 68 tak mean weight loss 17.3% tha, par stopping ke baad week 120 tak net loss 5.6% hi raha.\n\nSteer par hum doctor-led guidance aur long-term habits par focus karte hain. You need a long-term plan made with your doctor, including what happens when the medicine stops.\n\nBefore you start, hear it from a doctor, not a reel.\nsteerclub.com",
+  "reel_hi": [
+   "क्या आप परेशान हैं कि GLP-1 दवाई बंद करने के बाद वज़न वापस आ जाएगा?",
+   "रिसर्च के अनुसार, इलाज रोकने के 1 साल बाद लोगों ने अपना दो-तिहाई खोया हुआ वज़न वापस पा लिया।",
+   "सप्ताह 0 से 68 तक औसतन वज़न 17.3% कम हुआ, लेकिन दवा रुकने के बाद 11.6 प्रतिशत अंक वापस आ गए।",
+   "जिन लोगों को शुरुआत में प्रीडायबिटीज थी, उनमें से 93.6% सप्ताह 68 पर नॉर्मल हो गए, पर सप्ताह 120 तक 43.3% ही सही रहे।",
+   "गूगल करना बंद करें। स्टीयर डॉक्टर से बात करें और एक सही लॉन्ग-टर्म प्लान बनाएं।"
+  ],
+  "hashtags": [
+   "#MetabolicHealth",
+   "#WeightRegain",
+   "#GLP1Research",
+   "#DoctorLedCare",
+   "#SteerClub",
+   "#IndianHealth",
+   "#Prediabetes",
+   "#HabitsNotQuickFixes",
+   "#LoseWellLiveWell"
+  ],
+  "alt_text": "A carousel presentation detailing clinical trial findings on weight regain after stopping GLP-1 medicines and highlighting the necessity of a doctor-led long-term exit plan.",
+  "judge_flags": [],
+  "issues": []
+ },
+ "files": {
+  "carousel": [
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_01.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_02.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_03.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_04.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_05.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_06.png"
+  ],
+  "static": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\static.png",
+  "reel_frames": [
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_01.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_02.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_03.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_04.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_05.png"
+  ],
+  "reel": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_en.mp4",
+  "reel_seconds": 47.1,
+  "reel_hi": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_hi.mp4"
+ },
+ "timings": {
+  "ingest": 7,
+  "extract": 35,
+  "write": 79,
+  "render": 1,
+  "reel": 118,
+  "total": 240
+ }
+}

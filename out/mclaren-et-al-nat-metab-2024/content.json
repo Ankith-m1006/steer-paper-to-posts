@@ -1,0 +1,286 @@
+{
+ "paper": {
+  "source": "PMC11349579",
+  "title": "Weight gain leads to greater adverse metabolic responses in South Asian compared with white European men: the GlasVEGAS study.",
+  "citation": "McLaren et al., Nat Metab 2024",
+  "url": "https://doi.org/10.1038/s42255-024-01101-z",
+  "license": "cc by"
+ },
+ "claims": [
+  {
+   "id": "c1",
+   "finding": "South Asians have a three- to fivefold higher prevalence of type 2 diabetes and develop the disease a decade earlier and at lower body mass index (BMI) values than white Europeans.",
+   "quote": "SAs have three- to fivefold higher type 2 diabetes prevalence, and develop the disease a decade earlier and at lower body mass index (BMI) values, than WEs1.",
+   "loc": "Main, para 1",
+   "kind": "context",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c2",
+   "finding": "Weight gain interventions resulted in similar relative weight increases between ethnic groups, with white European men gaining 6.3% ± 0.2% and South Asian men gaining 6.5% ± 0.3% of total body weight (P = 0.62).",
+   "quote": "Increases in weight and BMI with the weight gain intervention were similar between groups, with the WE men gaining 6.3% ± 0.2% and SA men gaining 6.5% ± 0.3% in body weight in response to the intervention (P = 0.62 for ethnic difference).",
+   "loc": "Results, para 3",
+   "kind": "result",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c3",
+   "finding": "In response to weight gain, insulin sensitivity measured by the Matsuda index dropped by 38% in South Asian men, compared to a 7% decrease in white European men (P = 0.02).",
+   "quote": "Insulin sensitivity, as assessed by the Matsuda insulin sensitivity index, decreased by 38% in SAs, but only by 7% in the WEs, in response to weight gain (P = 0.02 for ethnicity × weight gain interaction).",
+   "loc": "Results, para 26",
+   "kind": "result",
+   "audience_value": 5,
+   "match": 1.0
+  },
+  {
+   "id": "c4",
+   "finding": "Fasting insulin levels increased by 175% in South Asian men after weight gain, whereas white European men showed no increase (P = 0.02).",
+   "quote": "Fasting insulin increased by 175% in SAs, compared to no increase in the WEs (P = 0.02 for ethnicity × weight gain interaction).",
+   "loc": "Results, para 26",
+   "kind": "result",
+   "audience_value": 5,
+   "match": 1.0
+  },
+  {
+   "id": "c5",
+   "finding": "Insulin resistance measured by HOMAIR increased by 160% in South Asian men following weight gain compared to 4% in white European men (P = 0.01).",
+   "quote": "Similarly, HOMAIR increased by 160% in SAs compared with 4% in WEs (P = 0.01 for ethnicity × weight gain interaction).",
+   "loc": "Results, para 26",
+   "kind": "result",
+   "audience_value": 5,
+   "match": 1.0
+  },
+  {
+   "id": "c6",
+   "finding": "White European men gained more than three times as much lean tissue as South Asian men during the weight gain phase (2.4 l versus 0.7 l).",
+   "quote": "It is, however, noteworthy that the WE men experienced a more than threefold larger increase in lean tissue in response to weight gain than SA men (2.4 l versus 0.7 l).",
+   "loc": "Discussion, para 3",
+   "kind": "result",
+   "audience_value": 5,
+   "match": 1.0
+  },
+  {
+   "id": "c7",
+   "finding": "At baseline, postprandial insulin concentrations were 62% higher in South Asian men than white European men (P = 0.006), despite similar baseline glucose and fasting insulin levels.",
+   "quote": "Baseline postprandial insulin concentrations were 62% (P = 0.006) higher in SAs than WEs, although fasting glucose and insulin concentrations, and postprandial glucose concentrations, did not differ significantly at baseline between the ethnic groups.",
+   "loc": "Discussion, para 2",
+   "kind": "result",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c8",
+   "finding": "South Asian participants had an 18% larger mean fat cell diameter (P = 0.006) and 76% larger fat cell volume (P = 0.006) at baseline than white European participants.",
+   "quote": "At baseline, mean adipocyte diameter (by 18%, P = 0.006) and adipocyte volume (by 76%, P = 0.006) were larger in SA participants.",
+   "loc": "Results, para 28",
+   "kind": "result",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c9",
+   "finding": "At baseline, 60% of total fat cell volume in South Asian participants was contained in large adipocytes compared with 28% in white European participants (P = 0.01).",
+   "quote": "In SAs, 60% of their total adipocyte volume was contained in large adipocytes compared with 28% in WEs (P = 0.01).",
+   "loc": "Results, para 28",
+   "kind": "result",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c10",
+   "finding": "Cardiorespiratory fitness (maximal oxygen uptake) at baseline was 24% lower in absolute terms (P < 0.0001) and 14% lower relative to body weight (P = 0.0001) in South Asian participants compared with white European participants.",
+   "quote": "At baseline, maximal oxygen uptake was lower in SA than WE participants both in absolute terms (l min−1; 24% lower, P < 0.0001) and relative to body weight (ml kg−1 min−1; 14% lower, P = 0.0001).",
+   "loc": "Results, para 27",
+   "kind": "result",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c11",
+   "finding": "Data following the weight loss phase could not be reliably presented because only 3 South Asian and 16 white European participants completed post-weight-loss measurements.",
+   "quote": "Only 3 SA and 16 WE participants completed measurements following the weight loss phase of the study; therefore, these data are not robust and have not been presented.",
+   "loc": "Results, para 1",
+   "kind": "limitation",
+   "audience_value": 2,
+   "match": 1.0
+  },
+  {
+   "id": "c12",
+   "finding": "The study findings are limited by being conducted exclusively in young, lean men.",
+   "quote": "The study was also limited to young, lean men, who we chose as the participant group in this initial study for two main reasons.",
+   "loc": "Discussion, para 8",
+   "kind": "limitation",
+   "audience_value": 2,
+   "match": 1.0
+  }
+ ],
+ "rejected": [],
+ "draft": {
+  "message": "South Asian biology responds differently to weight gain, showing sharper drops in insulin sensitivity, which is why metabolic care must be personalized and doctor-led.",
+  "reasoning": "This message addresses the audience's frustration with standard diet advice by grounding their experience in biology rather than personal failure. By highlighting metabolic differences documented in clinical research, it reinforces the need for personalized doctor-led plans built on blood work.",
+  "carousel": [
+   {
+    "role": "hook",
+    "kicker": "South Asian biology",
+    "headline": "Why weight gain affects South Asian bodies differently",
+    "emph": "affects South Asian bodies",
+    "body": "In response to weight gain, insulin sensitivity dropped by 38% in South Asian men, compared to a 7% decrease in white European men.",
+    "claims": [
+     "c3"
+    ]
+   },
+   {
+    "role": "insight",
+    "kicker": "Insulin resistance",
+    "headline": "Insulin resistance rises much faster during weight gain",
+    "emph": "rises much faster",
+    "body": "Insulin resistance increased by 160% in South Asian men following weight gain compared to 4% in white European men.",
+    "claims": [
+     "c5"
+    ]
+   },
+   {
+    "role": "insight",
+    "kicker": "Fasting insulin",
+    "headline": "Fasting insulin levels spike significantly higher in South Asian men",
+    "emph": "spike significantly higher",
+    "body": "Fasting insulin levels increased by 175% in South Asian men after weight gain, whereas white European men showed no increase.",
+    "claims": [
+     "c4"
+    ]
+   },
+   {
+    "role": "insight",
+    "kicker": "Lean tissue",
+    "headline": "Different lean tissue gains during periods of weight gain",
+    "emph": "lean tissue gains",
+    "body": "White European men gained more than three times as much lean tissue as South Asian men during the weight gain phase (2.4 l versus 0.7 l).",
+    "claims": [
+     "c6"
+    ]
+   },
+   {
+    "role": "meaning",
+    "kicker": "Trial limits",
+    "headline": "Why your personal blood tests always matter most",
+    "emph": "personal blood tests",
+    "body": "The study findings are limited by being conducted exclusively in young, lean men. Your own labs and a doctor's reading guide your specific path.",
+    "claims": [
+     "c12"
+    ]
+   },
+   {
+    "role": "cta",
+    "kicker": "Doctor-led care",
+    "headline": "Build a long-term plan based on your own labs",
+    "emph": "your own labs",
+    "body": "South Asians develop type 2 diabetes a decade earlier and at lower BMI values. Talk to Steer doctors for screening and habits built for Indian routines.",
+    "claims": [
+     "c1"
+    ]
+   }
+  ],
+  "static": {
+   "headline": "In South Asian men, insulin resistance increased by 160% after weight gain",
+   "emph": "160% after weight gain",
+   "sub": "Compared to a 4% increase in white European men. Your metabolic health needs personalized care based on your blood tests.",
+   "claims": [
+    "c5"
+   ]
+  },
+  "reel": [
+   {
+    "role": "hook",
+    "voice": "Why does gaining even a little weight feel like it hits our health harder?",
+    "on_screen": "Why weight gain hits our biology differently",
+    "claims": []
+   },
+   {
+    "role": "insight",
+    "voice": "In response to weight gain, insulin sensitivity dropped by 38% in South Asian men.",
+    "on_screen": "Insulin sensitivity dropped by 38%",
+    "claims": [
+     "c3"
+    ]
+   },
+   {
+    "role": "insight",
+    "voice": "White European men in the same study experienced only a 7% decrease.",
+    "on_screen": "White European men dropped by 7%",
+    "claims": [
+     "c3"
+    ]
+   },
+   {
+    "role": "meaning",
+    "voice": "Remember, this study was conducted exclusively in young, lean men, so your own labs matter.",
+    "on_screen": "Study limited to young, lean men",
+    "claims": [
+     "c12"
+    ]
+   },
+   {
+    "role": "cta",
+    "voice": "It is biology, not willpower. Talk to a doctor at Steer to review your labs.",
+    "on_screen": "Ask a doctor at steerclub.com",
+    "claims": [
+     "c1"
+    ]
+   }
+  ],
+  "caption": "Ever wondered why standard diet advice does not work the same for everyone? Research shows that in response to weight gain, insulin sensitivity dropped by 38% in South Asian men, compared to a 7% decrease in white European men. In the same trial, fasting insulin levels increased by 175% in South Asian men. This study was conducted exclusively in young, lean men, showing why personalized labs matter. At Steer, our doctors screen your blood tests to build a personalized metabolic plan made for Indian lifestyles. Before you start, hear it from a doctor, not a reel.\n\nsteerclub.com",
+  "caption_hinglish": "Kya aapne kabhi socha hai ki generic diet plans hum sab par ek jaisa kaam kyu nahi karte? Research kehta hai ki weight gain ke jawab mein, South Asian men mein insulin sensitivity 38% kam ho gayi, jabki white European men mein sirf 7% decrease hua. Is hi study mein, South Asian men mein fasting insulin levels 175% badh gaye. Yeh study exclusively young aur lean men par thi, jo dikhati hai ki aapke blood tests kitne zaroori hain. Isliye generic shortcuts kaam nahi karte. Steer par humare doctors aapke blood tests check karke personalized metabolic plan banate hain. Before you start, hear it from a doctor, not a reel.\n\nsteerclub.com",
+  "reel_hi": [
+   "thoda sa bhi weight badhne par humari health par itna asar kyu padta hai?",
+   "weight gain ke jawab mein, South Asian men mein insulin sensitivity 38% kam ho gayi.",
+   "is hi study mein, white European men mein sirf 7% ki kami dekhi gayi.",
+   "dhyan rakhein, yeh study sirf young aur lean men par ki gayi thi, isliye aapke blood tests zaroori hain.",
+   "yeh biology hai, willpower nahi. aaj hi Steer doctor se apne labs ke baare mein baat karein."
+  ],
+  "hashtags": [
+   "#MetabolicHealth",
+   "#SouthAsianHealth",
+   "#InsulinResistance",
+   "#DoctorLedCare",
+   "#IndianWellness",
+   "#BloodTestsFirst",
+   "#LoseWellLiveWell",
+   "#EvidenceBasedHealth",
+   "#HealthClubIndia"
+  ],
+  "alt_text": "An educational Instagram carousel explaining how insulin sensitivity and fasting insulin levels respond differently to weight gain in South Asian men compared to white European men, emphasizing doctor-led care.",
+  "judge_flags": [],
+  "issues": []
+ },
+ "files": {
+  "carousel": [
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_01.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_02.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_03.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_04.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_05.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_06.png"
+  ],
+  "static": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\static.png",
+  "reel_frames": [
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_01.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_02.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_03.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_04.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_05.png"
+  ],
+  "reel": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_en.mp4",
+  "reel_seconds": 33.4,
+  "reel_hi": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_hi.mp4"
+ },
+ "timings": {
+  "ingest": 33,
+  "extract": 28,
+  "write": 75,
+  "render": 1,
+  "reel": 69,
+  "total": 206
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "paper": {
+  "source": "﻿PMC11611443",
+  "title": "Strategies for minimizing muscle loss during use of incretin-mimetic drugs for treatment of obesity.",
+  "citation": "Mechanick et al., Obes Rev 2025",
+  "url": "https://doi.org/10.1111/obr.13841",
+  "license": "cc by"
+ },
+ "claims": [
+  {
+   "id": "c1",
+   "finding": "Clinical trial participants receiving incretin-mimetic drugs for obesity lost 10% or more of their muscle mass during 68- to 72-week interventions, which is equivalent to about 20 years of age-related muscle loss.",
+   "quote": "Available evidence suggests that clinical trial participants receiving IMDs for the treatment of obesity lost 10% or more of their muscle mass during the 68‐ to 72‐week interventions, approximately equivalent to 20 years of age‐related muscle loss.",
+   "loc": "Abstract",
+   "kind": "result",
+   "audience_value": 5,
+   "match": 1.0
+  },
+  {
+   "id": "c2",
+   "finding": "An estimated 15.9% of US adults aged 20 years or older have obesity combined with low muscle mass, representing nearly 30 million individuals.",
+   "quote": "A recent study estimated that 15.9% of the US adult population (≥20 years old) had obesity with low muscle mass, representing almost 30 million people.",
+   "loc": "Is the concern justified?, para 6",
+   "kind": "context",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c3",
+   "finding": "Participants in the pooled tirzepatide DXA subgroup (receiving 5, 10, or 15 mg once weekly) lost 10.9% of their lean mass over the treatment period.",
+   "quote": "In the pooled tirzepatide‐treated (5, 10, or 15 mg once weekly) DXA subgroup, participants lost 10.9% of their lean mass during the treatment period.",
+   "loc": "Is the concern justified?, para 11",
+   "kind": "result",
+   "audience_value": 5,
+   "match": 1.0
+  },
+  {
+   "id": "c4",
+   "finding": "In the absence of further analyses, it is premature to assume lean mass losses during IMD trials were caused by factors other than reduced calorie intake and potentially inadequate macronutrient or micronutrient intake alongside low physical activity.",
+   "quote": "In the absence of additional studies or analyses, it is premature to speculate that the observed declines in lean mass were due to anything other than reduced caloric intake and possibly inadequate intake of specific macro‐ or micronutrients (in the context of low levels of physical activity).",
+   "loc": "Is the concern justified?, para 13",
+   "kind": "limitation",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c5",
+   "finding": "It could take a decade or more before long-term follow-up studies clarify the long-term risk of sarcopenia or sarcopenic obesity associated with incretin-mimetic drug therapy.",
+   "quote": "It could be a decade or more before long‐term follow‐up studies evaluate the long‐term risk of sarcopenia or sarcopenic obesity associated with IMD therapy.",
+   "loc": "Is the concern justified?, para 14",
+   "kind": "limitation",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c6",
+   "finding": "The current Institute of Medicine Recommended Dietary Allowance for daily protein in healthy adults is 0.8 g/kg of body weight per day.",
+   "quote": "Currently, the Institute of Medicine Recommended Dietary Allowance for protein in healthy people is 0.8 g/kg body weight/day.",
+   "loc": "Preserving muscle mass and function duri, para 4",
+   "kind": "context",
+   "audience_value": 3,
+   "match": 1.0
+  },
+  {
+   "id": "c7",
+   "finding": "Clinical nutrition guidelines from the Joslin Diabetes Center advise a daily protein intake of 1.0–1.5 g/kg of adjusted body weight, defined as ideal body weight plus 0.25 times excess body weight.",
+   "quote": "Clinical nutrition guidelines from the Joslin Diabetes Center recommend protein intake of 1.0–1.5 g/kg of adjusted body weight, in which adjusted body weight is ideal body weight plus 0.25 × excess body weight.",
+   "loc": "Preserving muscle mass and function duri, para 4",
+   "kind": "method",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c8",
+   "finding": "An analysis of US NHANES data indicates that more than 40% of adults in the United States have an inadequate intake of essential micronutrients.",
+   "quote": "Unfortunately, an analysis of National Health and Nutrition Examination Survey (NHANES) data suggests that more than 40% of US adults have inadequate intake of micronutrients.",
+   "loc": "Preserving muscle mass and function duri, para 6",
+   "kind": "context",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c9",
+   "finding": "Physical Activity Guidelines for Americans recommend at least 150–300 minutes per week of moderate-intensity exercise or 75–150 minutes of vigorous-intensity exercise, plus muscle-strengthening activities on two or more days per week.",
+   "quote": "The latter guidelines recommend at least 150–300 min per week of moderate‐intensity exercise or 75–150 min of vigorous‐intensity exercise as well as muscle‐strengthening activities on two or more days per week.",
+   "loc": "Preserving muscle mass and function duri, para 9",
+   "kind": "method",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c10",
+   "finding": "The paper's consensus recommendations are derived from a single 1-day scientific roundtable meeting held in August 2023.",
+   "quote": "The paper is based on a 1‐day scientific roundtable meeting in August 2023 attended by each of the authors.",
+   "loc": "Introduction, para 1",
+   "kind": "limitation",
+   "audience_value": 2,
+   "match": 1.0
+  }
+ ],
+ "rejected": [
+  {
+   "id": "c3",
+   "finding": "In the STEP-1 trial, semaglutide 2.4 mg weekly reduced body weight by an average of 17.32 kg compared to 2.65 kg in placebo, which included a 6.92 kg mean reduction in total lean mass compared to 1.48 kg in placebo.",
+   "quote": "In the semaglutide‐treated (2.4 mg once weekly) group, body weight was reduced by an average of 17.32 kg during the treatment period (vs. 2.65 kg in the placebo group); this included a 6.92‐kg mean reduction in total lean mass (vs. 1.48 kg in the placebo group).",
+   "loc": "[Is the concern justified?, para 10]",
+   "kind": "result",
+   "audience_value": 5,
+   "why": "numbers not in the quote: 1"
+  },
+  {
+   "id": "c4",
+   "finding": "In the STEP-1 semaglutide group, 40% of the overall reduction in body weight came from a loss in lean mass.",
+   "quote": "Thus, in the semaglutide group, 40% of the reduction in body weight was due to a reduction in lean mass.",
+   "loc": "[Is the concern justified?, para 10]",
+   "kind": "result",
+   "audience_value": 5,
+   "why": "numbers not in the quote: 1"
+  }
+ ],
+ "draft": {
+  "message": "Muscle loss during GLP-1 therapy can be addressed through doctor guidance, structured nutrition, and activity.",
+  "reasoning": "Indian adults considering GLP-1 medicines often worry about losing physical strength. Presenting evidence-based protein and exercise guidelines addresses these concerns directly while establishing Steer's doctor-led credibility. The format delivers reassuring, clear medical facts without promising unverified clinical outcomes.",
+  "carousel": [
+   {
+    "role": "hook",
+    "kicker": "GLP-1 and muscle",
+    "headline": "Are GLP-1 medicines making you lose muscle mass?",
+    "emph": "lose muscle mass",
+    "body": "It is a valid worry. Here is what research shows and how doctors plan around it.",
+    "claims": [
+     "c1"
+    ]
+   },
+   {
+    "role": "insight",
+    "kicker": "Trial findings",
+    "headline": "Participants lost 10% or more of muscle mass in trials",
+    "emph": "10% or more",
+    "body": "In clinical trials, participants lost 10% or more of muscle mass during 68- to 72-week interventions.",
+    "claims": [
+     "c1"
+    ]
+   },
+   {
+    "role": "insight",
+    "kicker": "Underlying causes",
+    "headline": "Low calories and low activity drive lean mass losses",
+    "emph": "low activity",
+    "body": "Lean mass losses during trials were linked to reduced calorie intake, inadequate nutrient intake, and low physical activity.",
+    "claims": [
+     "c4"
+    ]
+   },
+   {
+    "role": "meaning",
+    "kicker": "Nutrition guidelines",
+    "headline": "Guidelines recommend 1.0–1.5 g/kg daily protein intake",
+    "emph": "1.0–1.5 g/kg",
+    "body": "Clinical guidelines advise 1.0–1.5 g/kg protein alongside muscle-strengthening activities on two or more days per week.",
+    "claims": [
+     "c7",
+     "c9"
+    ]
+   },
+   {
+    "role": "meaning",
+    "kicker": "Long-term view",
+    "headline": "Long-term muscle health requires ongoing medical care",
+    "emph": "medical care",
+    "body": "Long-term risks are still being studied over time. Personal nutrition and exercise tracking help manage your journey.",
+    "claims": [
+     "c5"
+    ]
+   },
+   {
+    "role": "cta",
+    "kicker": "Start safely",
+    "headline": "Build a personalized metabolic plan with a doctor",
+    "emph": "personalized metabolic plan",
+    "body": "Speak with a Steer doctor to build a personalized metabolic plan rooted in your labs and lifestyle.",
+    "claims": []
+   }
+  ],
+  "static": {
+   "headline": "Understand muscle health during your metabolic journey",
+   "emph": "muscle health",
+   "sub": "Clinical guidelines advise 1.0–1.5 g/kg protein daily and activity on two or more days per week.",
+   "claims": [
+    "c7",
+    "c9"
+   ]
+  },
+  "reel": [
+   {
+    "role": "hook",
+    "voice": "Will GLP-1 medicines make me lose muscle strength?",
+    "on_screen": "Will GLP-1 cause muscle loss?",
+    "claims": [
+     "c1"
+    ]
+   },
+   {
+    "role": "insight",
+    "voice": "In clinical trials, participants lost 10% or more of muscle mass over 68- to 72-week interventions.",
+    "on_screen": "Participants lost 10% or more muscle",
+    "claims": [
+     "c1"
+    ]
+   },
+   {
+    "role": "meaning",
+    "voice": "This is mainly linked to reduced calorie intake, low protein, and limited physical activity.",
+    "on_screen": "Driven by low calories and low activity",
+    "claims": [
+     "c4"
+    ]
+   },
+   {
+    "role": "meaning",
+    "voice": "Guidelines recommend pairing treatment with strength training on two or more days and 1.0–1.5 g/kg protein.",
+    "on_screen": "Guidelines recommend protein and strength training",
+    "claims": [
+     "c7",
+     "c9"
+    ]
+   },
+   {
+    "role": "cta",
+    "voice": "Build a doctor-led metabolic plan rooted in your labs. Talk to a doctor at Steer today.",
+    "on_screen": "Talk to a Steer doctor today",
+    "claims": []
+   }
+  ],
+  "caption": "If you are considering GLP-1 medicines, muscle loss is a fair worry. In clinical trials, participants lost 10% or more of muscle mass over 68- to 72-week interventions. This was linked to reduced calorie intake, low protein, and low activity. Guidelines recommend 1.0–1.5 g/kg daily protein intake and muscle-strengthening exercise on two or more days per week. At Steer, doctors design personalized metabolic plans based on your labs and lifestyle.\n\nBefore you start, hear it from a doctor, not a reel.\nsteerclub.com",
+  "caption_hinglish": "Agar aap GLP-1 medicines ke baare mein soch rahe hain, toh muscle loss ka darr hona normal hai. Clinical trials mein participants ne 68- to 72-week interventions mein 10% or more muscle mass khoya. Yeh kam calorie intake, low protein aur kam activity se juda hai. Guidelines 1.0–1.5 g/kg daily protein intake aur week mein two or more days strength training suggest karti hain. Steer par doctors aapke labs aur lifestyle ke hisaab se personalised metabolic plan banate hain.\n\nBefore you start, hear it from a doctor, not a reel.\nsteerclub.com",
+  "reel_hi": [
+   "क्या GLP-1 दवाइयों से मेरा मसल मास कम हो जाएगा?",
+   "ट्रायल्स में, पार्टिसिपेंट्स ने 68 से 72 हफ्तों में 10% या उससे ज़्यादा मसल मास खोया।",
+   "यह कम कैलोरी, कम प्रोटीन और एक्सरसाइज की कमी से जुड़ा हुआ है।",
+   "गाइडलाइंस हफ्ते में 2 या उससे ज़्यादा दिन स्ट्रेंथ ट्रेनिंग और 1.0–1.5 g/kg प्रोटीन की सलाह देती हैं।",
+   "अपने लैब्स के आधार पर डॉक्टर-लेड प्लान बनाएं। आज ही Steer के डॉक्टर से बात करें।"
+  ],
+  "hashtags": [
+   "#metabolichealth",
+   "#doctorled",
+   "#muscleloss",
+   "#proteinguidelines",
+   "#weightlossindia",
+   "#healthylifestyle",
+   "#indianhealth",
+   "#weightlossjourney",
+   "#strengthtraining",
+   "#steerclub"
+  ],
+  "alt_text": "An informative Instagram carousel explaining trial data on muscle loss during GLP-1 therapy and guidelines for nutrition and exercise.",
+  "judge_flags": [
+   "reel scene 1: The text references losing 'muscle strength', but the cited claim (c1) only measures loss of 'muscle mass', which is distinct from muscle strength. (fix: Replace 'muscle strength' with 'muscle mass'.)"
+  ],
+  "issues": [
+   "reel scene 1: The text references losing 'muscle strength', but the cited claim (c1) only measures loss of 'muscle mass', which is distinct from muscle strength. (fix: Replace 'muscle strength' with 'muscle mass'.)"
+  ]
+ },
+ "files": {
+  "carousel": [
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\carousel\\slide_01.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\carousel\\slide_02.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\carousel\\slide_03.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\carousel\\slide_04.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\carousel\\slide_05.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\carousel\\slide_06.png"
+  ],
+  "static": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\static.png",
+  "reel_frames": [
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_frames\\scene_01.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_frames\\scene_02.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_frames\\scene_03.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_frames\\scene_04.png",
+   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_frames\\scene_05.png"
+  ],
+  "reel": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_en.mp4",
+  "reel_seconds": 37.1,
+  "reel_hi": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_hi.mp4"
+ },
+ "timings": {
+  "ingest": 4,
+  "extract": 22,
+  "write": 74,
+  "render": 1,
+  "reel": 91,
+  "total": 192
+ }
+}

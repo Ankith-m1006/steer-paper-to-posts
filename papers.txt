@@ -1,0 +1,3 @@
+papers/A_regain.pdf|DOI:"10.1111/dom.14725"
+PMC11611443
+PMC11349579
