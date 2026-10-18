@@ -2,6 +2,8 @@
 
 Built for the Steer Club Hackathon, Problem Statement 2 ("From research paper to Instagram, automated").
 
+**Gallery (outputs + doctor review pages):** https://steer-paper-to-posts-1037019152152.asia-south1.run.app
+
 One command takes a research paper (a PDF or a link) and produces, in Steer's voice and brand:
 a carousel, a static post (4:5 and 1:1), an AI-voiced reel in English and in Hindi, a caption with
 hashtags, a Hinglish caption, and a review page where a Steer doctor sees every line next to the exact
