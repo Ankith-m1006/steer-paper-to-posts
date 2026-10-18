@@ -31,6 +31,9 @@ NUM = re.compile(r"\d+(?:[.,]\d+)?")
 
 
 def _numbers(s):
+    # Names like "STEP-1", "GLP-1" or "SURMOUNT-1" are labels, not numbers in the finding.
+    s = re.sub(r"[‐‑‒–−]", "-", s)
+    s = re.sub(r"\b[A-Za-z]{2,}-\d+\b", " ", s)
     return {n.replace(",", ".") for n in NUM.findall(s)}
 
 

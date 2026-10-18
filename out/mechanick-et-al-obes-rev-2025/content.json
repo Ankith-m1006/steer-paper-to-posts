@@ -1,6 +1,6 @@
 {
  "paper": {
-  "source": "﻿PMC11611443",
+  "source": "PMC11611443",
   "title": "Strategies for minimizing muscle loss during use of incretin-mimetic drugs for treatment of obesity.",
   "citation": "Mechanick et al., Obes Rev 2025",
   "url": "https://doi.org/10.1111/obr.13841",
@@ -9,26 +9,26 @@
  "claims": [
   {
    "id": "c1",
-   "finding": "Clinical trial participants receiving incretin-mimetic drugs for obesity lost 10% or more of their muscle mass during 68- to 72-week interventions, which is equivalent to about 20 years of age-related muscle loss.",
-   "quote": "Available evidence suggests that clinical trial participants receiving IMDs for the treatment of obesity lost 10% or more of their muscle mass during the 68‐ to 72‐week interventions, approximately equivalent to 20 years of age‐related muscle loss.",
-   "loc": "Abstract",
+   "finding": "In the STEP-1 trial, people receiving semaglutide (2.4 mg once weekly) lost an average of 17.32 kg in body weight compared to 2.65 kg with placebo, which included a mean total lean mass reduction of 6.92 kg compared to 1.48 kg with placebo.",
+   "quote": "In the semaglutide‐treated (2.4 mg once weekly) group, body weight was reduced by an average of 17.32 kg during the treatment period (vs. 2.65 kg in the placebo group); this included a 6.92‐kg mean reduction in total lean mass (vs. 1.48 kg in the placebo group).",
+   "loc": "Is the concern justified?, para 10",
    "kind": "result",
    "audience_value": 5,
    "match": 1.0
   },
   {
    "id": "c2",
-   "finding": "An estimated 15.9% of US adults aged 20 years or older have obesity combined with low muscle mass, representing nearly 30 million individuals.",
-   "quote": "A recent study estimated that 15.9% of the US adult population (≥20 years old) had obesity with low muscle mass, representing almost 30 million people.",
-   "loc": "Is the concern justified?, para 6",
-   "kind": "context",
-   "audience_value": 4,
+   "finding": "In the semaglutide group of the STEP-1 trial, 40% of the total body weight loss was attributable to a reduction in lean mass.",
+   "quote": "Thus, in the semaglutide group, 40% of the reduction in body weight was due to a reduction in lean mass.",
+   "loc": "Is the concern justified?, para 10",
+   "kind": "result",
+   "audience_value": 5,
    "match": 1.0
   },
   {
    "id": "c3",
-   "finding": "Participants in the pooled tirzepatide DXA subgroup (receiving 5, 10, or 15 mg once weekly) lost 10.9% of their lean mass over the treatment period.",
-   "quote": "In the pooled tirzepatide‐treated (5, 10, or 15 mg once weekly) DXA subgroup, participants lost 10.9% of their lean mass during the treatment period.",
+   "finding": "The estimated muscle loss of 10% or more over 68–72 weeks of incretin-mimetic treatment equals roughly 20 years of age-related muscle decline in adults over 30 years old, which normally occurs at 3%–5% per decade.",
+   "quote": "The estimated loss of skeletal muscle in these two major trials (10% or more during 68–72 weeks of treatment) approximates the average decline in muscle mass during 20 years of aging‐related muscle loss in adults older than 30 years, estimated at 3%–5% per decade (Figure 5).",
    "loc": "Is the concern justified?, para 11",
    "kind": "result",
    "audience_value": 5,
@@ -36,16 +36,25 @@
   },
   {
    "id": "c4",
-   "finding": "In the absence of further analyses, it is premature to assume lean mass losses during IMD trials were caused by factors other than reduced calorie intake and potentially inadequate macronutrient or micronutrient intake alongside low physical activity.",
-   "quote": "In the absence of additional studies or analyses, it is premature to speculate that the observed declines in lean mass were due to anything other than reduced caloric intake and possibly inadequate intake of specific macro‐ or micronutrients (in the context of low levels of physical activity).",
-   "loc": "Is the concern justified?, para 13",
+   "finding": "An estimated 15.9% of US adults aged 20 years or older—representing almost 30 million people—have obesity combined with low muscle mass.",
+   "quote": "A recent study estimated that 15.9% of the US adult population (≥20 years old) had obesity with low muscle mass, representing almost 30 million people.",
+   "loc": "Is the concern justified?, para 6",
+   "kind": "context",
+   "audience_value": 4,
+   "match": 1.0
+  },
+  {
+   "id": "c5",
+   "finding": "The published STEP-1 trial data cannot determine the exact proportion of lost lean mass that was skeletal muscle versus non-fat tissues like the liver and heart.",
+   "quote": "Although muscle usually accounts for about one‐half of lean mass, it is not possible to determine from this publication the actual proportion of lean mass that was muscle versus other non‐fat tissues such as the liver, heart, and other organs and tissues.",
+   "loc": "Is the concern justified?, para 10",
    "kind": "limitation",
    "audience_value": 3,
    "match": 1.0
   },
   {
-   "id": "c5",
-   "finding": "It could take a decade or more before long-term follow-up studies clarify the long-term risk of sarcopenia or sarcopenic obesity associated with incretin-mimetic drug therapy.",
+   "id": "c6",
+   "finding": "It may take a decade or longer before research studies evaluate the long-term risk of sarcopenia or sarcopenic obesity linked to incretin-mimetic drug therapy.",
    "quote": "It could be a decade or more before long‐term follow‐up studies evaluate the long‐term risk of sarcopenia or sarcopenic obesity associated with IMD therapy.",
    "loc": "Is the concern justified?, para 14",
    "kind": "limitation",
@@ -53,26 +62,17 @@
    "match": 1.0
   },
   {
-   "id": "c6",
-   "finding": "The current Institute of Medicine Recommended Dietary Allowance for daily protein in healthy adults is 0.8 g/kg of body weight per day.",
+   "id": "c7",
+   "finding": "The Institute of Medicine Recommended Dietary Allowance for protein in healthy individuals is currently 0.8 g per kg of body weight per day.",
    "quote": "Currently, the Institute of Medicine Recommended Dietary Allowance for protein in healthy people is 0.8 g/kg body weight/day.",
    "loc": "Preserving muscle mass and function duri, para 4",
    "kind": "context",
-   "audience_value": 3,
-   "match": 1.0
-  },
-  {
-   "id": "c7",
-   "finding": "Clinical nutrition guidelines from the Joslin Diabetes Center advise a daily protein intake of 1.0–1.5 g/kg of adjusted body weight, defined as ideal body weight plus 0.25 times excess body weight.",
-   "quote": "Clinical nutrition guidelines from the Joslin Diabetes Center recommend protein intake of 1.0–1.5 g/kg of adjusted body weight, in which adjusted body weight is ideal body weight plus 0.25 × excess body weight.",
-   "loc": "Preserving muscle mass and function duri, para 4",
-   "kind": "method",
    "audience_value": 4,
    "match": 1.0
   },
   {
    "id": "c8",
-   "finding": "An analysis of US NHANES data indicates that more than 40% of adults in the United States have an inadequate intake of essential micronutrients.",
+   "finding": "An analysis of NHANES data indicates that more than 40% of US adults do not get adequate micronutrient intake.",
    "quote": "Unfortunately, an analysis of National Health and Nutrition Examination Survey (NHANES) data suggests that more than 40% of US adults have inadequate intake of micronutrients.",
    "loc": "Preserving muscle mass and function duri, para 6",
    "kind": "context",
@@ -81,185 +81,174 @@
   },
   {
    "id": "c9",
-   "finding": "Physical Activity Guidelines for Americans recommend at least 150–300 minutes per week of moderate-intensity exercise or 75–150 minutes of vigorous-intensity exercise, plus muscle-strengthening activities on two or more days per week.",
-   "quote": "The latter guidelines recommend at least 150–300 min per week of moderate‐intensity exercise or 75–150 min of vigorous‐intensity exercise as well as muscle‐strengthening activities on two or more days per week.",
-   "loc": "Preserving muscle mass and function duri, para 9",
-   "kind": "method",
-   "audience_value": 4,
+   "finding": "The most precise body composition evaluation tools (MRI, CT, and DXA) carry high costs and have limited availability in outpatient settings.",
+   "quote": "The most accurate and reliable methods for assessing body composition (magnetic resonance imaging [MRI], computed tomography [CT], and DXA) have limited availability in outpatient settings and relatively high costs.",
+   "loc": "Assessing muscle mass and function, para 1",
+   "kind": "limitation",
+   "audience_value": 3,
    "match": 1.0
   },
   {
    "id": "c10",
-   "finding": "The paper's consensus recommendations are derived from a single 1-day scientific roundtable meeting held in August 2023.",
-   "quote": "The paper is based on a 1‐day scientific roundtable meeting in August 2023 attended by each of the authors.",
-   "loc": "Introduction, para 1",
+   "finding": "Many diagnostic cutoff values for muscle function tests were established in older adults and may not accurately apply to younger age groups.",
+   "quote": "For example, diagnostic cutoffs for many muscle function tests were developed and validated in older people and may not be applicable or accurate in younger populations.",
+   "loc": "Assessing muscle mass and function, para 1",
    "kind": "limitation",
-   "audience_value": 2,
+   "audience_value": 3,
    "match": 1.0
   }
  ],
  "rejected": [
   {
    "id": "c3",
-   "finding": "In the STEP-1 trial, semaglutide 2.4 mg weekly reduced body weight by an average of 17.32 kg compared to 2.65 kg in placebo, which included a 6.92 kg mean reduction in total lean mass compared to 1.48 kg in placebo.",
-   "quote": "In the semaglutide‐treated (2.4 mg once weekly) group, body weight was reduced by an average of 17.32 kg during the treatment period (vs. 2.65 kg in the placebo group); this included a 6.92‐kg mean reduction in total lean mass (vs. 1.48 kg in the placebo group).",
-   "loc": "[Is the concern justified?, para 10]",
+   "finding": "In the SURMOUNT-1 trial's pooled DXA subgroup receiving tirzepatide (5, 10, or 15 mg once weekly), participants lost 10.9% of their total lean mass during the 72-week treatment period.",
+   "quote": "In the pooled tirzepatide‐treated (5, 10, or 15 mg once weekly) DXA subgroup, participants lost 10.9% of their lean mass during the treatment period.",
+   "loc": "[Is the concern justified?, para 11]",
    "kind": "result",
    "audience_value": 5,
-   "why": "numbers not in the quote: 1"
+   "why": "numbers not in the quote: 72"
   },
   {
-   "id": "c4",
-   "finding": "In the STEP-1 semaglutide group, 40% of the overall reduction in body weight came from a loss in lean mass.",
-   "quote": "Thus, in the semaglutide group, 40% of the reduction in body weight was due to a reduction in lean mass.",
-   "loc": "[Is the concern justified?, para 10]",
-   "kind": "result",
-   "audience_value": 5,
-   "why": "numbers not in the quote: 1"
+   "id": "c10",
+   "finding": "The Physical Activity Guidelines for Americans recommend at least 150–300 minutes per week of moderate-intensity or 75–150 minutes of vigorous-intensity exercise, along with muscle-strengthening activities at least 2 days per week.",
+   "quote": "The latter guidelines recommend at least 150–300 min per week of moderate‐intensity exercise or 75–150 min of vigorous‐intensity exercise as well as muscle‐strengthening activities on two or more days per week.",
+   "loc": "[Preserving muscle mass and function duri, para 9]",
+   "kind": "method",
+   "audience_value": 4,
+   "why": "numbers not in the quote: 2"
   }
  ],
  "draft": {
-  "message": "Muscle loss during GLP-1 therapy can be addressed through doctor guidance, structured nutrition, and activity.",
-  "reasoning": "Indian adults considering GLP-1 medicines often worry about losing physical strength. Presenting evidence-based protein and exercise guidelines addresses these concerns directly while establishing Steer's doctor-led credibility. The format delivers reassuring, clear medical facts without promising unverified clinical outcomes.",
+  "message": "Protecting strength while taking GLP-1 medicines requires doctor-led screening, personalized nutrition, and a clear long-term plan.",
+  "reasoning": "Indian adults considering GLP-1 medicines frequently worry about losing strength and muscle alongside weight. By directly addressing trial findings and limitations without naming specific drugs, we address worries transparently. Emphasizing doctor screening, personal plans, and long-term habits positions Steer as a trusted metabolic health club.",
   "carousel": [
    {
     "role": "hook",
-    "kicker": "GLP-1 and muscle",
-    "headline": "Are GLP-1 medicines making you lose muscle mass?",
-    "emph": "lose muscle mass",
-    "body": "It is a valid worry. Here is what research shows and how doctors plan around it.",
+    "kicker": "weight loss worries",
+    "headline": "will GLP-1 medicines affect your muscle mass?",
+    "emph": "muscle mass",
+    "body": "it is a common concern. let us look at what clinical trial data actually shows.",
+    "claims": []
+   },
+   {
+    "role": "insight",
+    "kicker": "the trial numbers",
+    "headline": "in the STEP-1 trial, lean mass decreased alongside weight",
+    "emph": "lean mass",
+    "body": "people lost an average of 17.32 kg vs 2.65 kg with placebo, including 6.92 kg total lean mass vs 1.48 kg with placebo.",
     "claims": [
      "c1"
     ]
    },
    {
     "role": "insight",
-    "kicker": "Trial findings",
-    "headline": "Participants lost 10% or more of muscle mass in trials",
-    "emph": "10% or more",
-    "body": "In clinical trials, participants lost 10% or more of muscle mass during 68- to 72-week interventions.",
+    "kicker": "understanding lean mass",
+    "headline": "40% of weight lost was from lean mass",
+    "emph": "40% of weight lost",
+    "body": "in the group receiving the medicine in the STEP-1 trial, 40% of the total body weight loss was attributable to a reduction in lean mass.",
     "claims": [
-     "c1"
-    ]
-   },
-   {
-    "role": "insight",
-    "kicker": "Underlying causes",
-    "headline": "Low calories and low activity drive lean mass losses",
-    "emph": "low activity",
-    "body": "Lean mass losses during trials were linked to reduced calorie intake, inadequate nutrient intake, and low physical activity.",
-    "claims": [
-     "c4"
+     "c2"
     ]
    },
    {
     "role": "meaning",
-    "kicker": "Nutrition guidelines",
-    "headline": "Guidelines recommend 1.0–1.5 g/kg daily protein intake",
-    "emph": "1.0–1.5 g/kg",
-    "body": "Clinical guidelines advise 1.0–1.5 g/kg protein alongside muscle-strengthening activities on two or more days per week.",
-    "claims": [
-     "c7",
-     "c9"
-    ]
-   },
-   {
-    "role": "meaning",
-    "kicker": "Long-term view",
-    "headline": "Long-term muscle health requires ongoing medical care",
-    "emph": "medical care",
-    "body": "Long-term risks are still being studied over time. Personal nutrition and exercise tracking help manage your journey.",
+    "kicker": "what data misses",
+    "headline": "lean mass is not just skeletal muscle",
+    "emph": "not just",
+    "body": "the published STEP-1 trial data cannot determine the exact proportion of lost lean mass that was skeletal muscle versus non-fat tissues like the liver and heart.",
     "claims": [
      "c5"
     ]
    },
    {
+    "role": "meaning",
+    "kicker": "daily nutrition guidance",
+    "headline": "the RDA for protein in healthy individuals is 0.8 g per kg",
+    "emph": "0.8 g per kg",
+    "body": "from protein intake to strength habits, our doctor-led plans focus on supporting your strength during weight loss.",
+    "claims": [
+     "c7"
+    ]
+   },
+   {
     "role": "cta",
-    "kicker": "Start safely",
-    "headline": "Build a personalized metabolic plan with a doctor",
-    "emph": "personalized metabolic plan",
-    "body": "Speak with a Steer doctor to build a personalized metabolic plan rooted in your labs and lifestyle.",
+    "kicker": "start with care",
+    "headline": "lose well with guidance from a doctor",
+    "emph": "guidance from a doctor",
+    "body": "get complete blood tests, doctor screening, and a personal long-term plan made for your life in India.",
     "claims": []
    }
   ],
   "static": {
-   "headline": "Understand muscle health during your metabolic journey",
-   "emph": "muscle health",
-   "sub": "Clinical guidelines advise 1.0–1.5 g/kg protein daily and activity on two or more days per week.",
+   "headline": "worried about muscle loss on weight loss medicines?",
+   "emph": "muscle loss",
+   "sub": "in the STEP-1 trial, 40% of weight loss was lean mass. a doctor-led plan focuses on nutrition and strength alongside treatment.",
    "claims": [
-    "c7",
-    "c9"
+    "c2"
    ]
   },
   "reel": [
    {
     "role": "hook",
-    "voice": "Will GLP-1 medicines make me lose muscle strength?",
-    "on_screen": "Will GLP-1 cause muscle loss?",
-    "claims": [
-     "c1"
-    ]
+    "voice": "are you worried that taking weight loss medicines will affect your muscle mass?",
+    "on_screen": "will weight loss medicines affect your muscle mass?",
+    "claims": []
    },
    {
     "role": "insight",
-    "voice": "In clinical trials, participants lost 10% or more of muscle mass over 68- to 72-week interventions.",
-    "on_screen": "Participants lost 10% or more muscle",
+    "voice": "in the STEP-1 trial, 40% of total body weight loss was attributable to lean mass reduction.",
+    "on_screen": "40% of weight lost was lean mass",
     "claims": [
-     "c1"
+     "c2"
     ]
    },
    {
     "role": "meaning",
-    "voice": "This is mainly linked to reduced calorie intake, low protein, and limited physical activity.",
-    "on_screen": "Driven by low calories and low activity",
+    "voice": "however, trial data cannot determine how much lean mass lost was skeletal muscle versus other tissues.",
+    "on_screen": "lean mass includes liver and heart tissue",
     "claims": [
-     "c4"
+     "c5"
     ]
    },
    {
     "role": "meaning",
-    "voice": "Guidelines recommend pairing treatment with strength training on two or more days and 1.0–1.5 g/kg protein.",
-    "on_screen": "Guidelines recommend protein and strength training",
+    "voice": "The Recommended Dietary Allowance for protein in healthy individuals is 0.8 g per kg of body weight daily.",
+    "on_screen": "protein RDA is 0.8 g per kg daily",
     "claims": [
-     "c7",
-     "c9"
+     "c7"
     ]
    },
    {
     "role": "cta",
-    "voice": "Build a doctor-led metabolic plan rooted in your labs. Talk to a doctor at Steer today.",
-    "on_screen": "Talk to a Steer doctor today",
+    "voice": "talk to a steer doctor today for blood tests, personalized nutrition, and a clear long-term plan.",
+    "on_screen": "talk to a steer doctor today",
     "claims": []
    }
   ],
-  "caption": "If you are considering GLP-1 medicines, muscle loss is a fair worry. In clinical trials, participants lost 10% or more of muscle mass over 68- to 72-week interventions. This was linked to reduced calorie intake, low protein, and low activity. Guidelines recommend 1.0–1.5 g/kg daily protein intake and muscle-strengthening exercise on two or more days per week. At Steer, doctors design personalized metabolic plans based on your labs and lifestyle.\n\nBefore you start, hear it from a doctor, not a reel.\nsteerclub.com",
-  "caption_hinglish": "Agar aap GLP-1 medicines ke baare mein soch rahe hain, toh muscle loss ka darr hona normal hai. Clinical trials mein participants ne 68- to 72-week interventions mein 10% or more muscle mass khoya. Yeh kam calorie intake, low protein aur kam activity se juda hai. Guidelines 1.0–1.5 g/kg daily protein intake aur week mein two or more days strength training suggest karti hain. Steer par doctors aapke labs aur lifestyle ke hisaab se personalised metabolic plan banate hain.\n\nBefore you start, hear it from a doctor, not a reel.\nsteerclub.com",
+  "caption": "When considering GLP-1 medicines, muscle loss is a common worry. In the STEP-1 trial, 40% of total body weight loss was attributable to a reduction in lean mass. However, trial data cannot determine how much was skeletal muscle versus tissues like the liver or heart.\n\nAt Steer, keeping your strength matters. Our doctor-led club starts with detailed blood tests and medical screening. We build a personalized plan that fits your rotis, chai, and desk job, supported by nutrition, strength habits, and a planned exit.\n\nBefore you start, hear it from a doctor, not a reel.\nsteerclub.com",
+  "caption_hinglish": "GLP-1 medicines lene se pehle muscle loss ka darr hona natural hai. STEP-1 trial mein total body weight loss ka 40% lean mass reduction se tha. Lekin trial data yeh clear nahi karta ki isme se kitna skeletal muscle tha aur kitna liver ya heart jaise tissues.\n\nSteer mein aapki strength ka khayal rakha jata hai. Humara doctor-led club detailed blood tests se shuru hota hai. Hum aapke rotis, chai aur daily routine ke hisaab se plan banate hain, saath mein habits aur ek planned exit bhi.\n\nBefore you start, hear it from a doctor, not a reel.\nsteerclub.com",
   "reel_hi": [
-   "क्या GLP-1 दवाइयों से मेरा मसल मास कम हो जाएगा?",
-   "ट्रायल्स में, पार्टिसिपेंट्स ने 68 से 72 हफ्तों में 10% या उससे ज़्यादा मसल मास खोया।",
-   "यह कम कैलोरी, कम प्रोटीन और एक्सरसाइज की कमी से जुड़ा हुआ है।",
-   "गाइडलाइंस हफ्ते में 2 या उससे ज़्यादा दिन स्ट्रेंथ ट्रेनिंग और 1.0–1.5 g/kg प्रोटीन की सलाह देती हैं।",
-   "अपने लैब्स के आधार पर डॉक्टर-लेड प्लान बनाएं। आज ही Steer के डॉक्टर से बात करें।"
+   "क्या आपको डर है कि weight loss दवाइयों से आपका muscle mass कम हो जाएगा?",
+   "STEP-1 trial में total body weight loss का 40% lean mass reduction से था।",
+   "लेकिन trial data यह नहीं बताता कि lean mass में से कितना actual muscle था और कितना skeletal muscle से अलग tissue।",
+   "Healthy लोगों के लिए daily protein allowance 0.8 g per kg body weight है।",
+   "Blood tests, nutrition guidance और clear long-term plan के लिए आज ही Steer doctor से बात करें।"
   ],
   "hashtags": [
    "#metabolichealth",
-   "#doctorled",
-   "#muscleloss",
-   "#proteinguidelines",
    "#weightlossindia",
-   "#healthylifestyle",
+   "#doctorled",
+   "#glp1medicines",
+   "#musclehealth",
+   "#healthhabits",
+   "#steerclub",
    "#indianhealth",
-   "#weightlossjourney",
-   "#strengthtraining",
-   "#steerclub"
+   "#evidencebased",
+   "#healthyweightloss"
   ],
-  "alt_text": "An informative Instagram carousel explaining trial data on muscle loss during GLP-1 therapy and guidelines for nutrition and exercise.",
-  "judge_flags": [
-   "reel scene 1: The text references losing 'muscle strength', but the cited claim (c1) only measures loss of 'muscle mass', which is distinct from muscle strength. (fix: Replace 'muscle strength' with 'muscle mass'.)"
-  ],
-  "issues": [
-   "reel scene 1: The text references losing 'muscle strength', but the cited claim (c1) only measures loss of 'muscle mass', which is distinct from muscle strength. (fix: Replace 'muscle strength' with 'muscle mass'.)"
-  ]
+  "alt_text": "An educational carousel explaining trial data on lean mass reduction during GLP-1 treatment and how doctor-led care supports overall strength.",
+  "judge_flags": [],
+  "issues": []
  },
  "files": {
   "carousel": [
@@ -279,15 +268,15 @@
    "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_frames\\scene_05.png"
   ],
   "reel": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_en.mp4",
-  "reel_seconds": 37.1,
+  "reel_seconds": 36.7,
   "reel_hi": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mechanick-et-al-obes-rev-2025\\reel_hi.mp4"
  },
  "timings": {
-  "ingest": 4,
-  "extract": 22,
-  "write": 74,
+  "ingest": 5,
+  "extract": 25,
+  "write": 72,
   "render": 1,
   "reel": 91,
-  "total": 192
+  "total": 195
  }
 }
