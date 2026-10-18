@@ -63,7 +63,7 @@ def build(scenes, frames, out_dir, lang="en", lines_key="voice"):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", "list.txt", "-c", "copy", "joined.mp4"],
                    cwd=work, check=True)
     final = out / f"reel_{lang}.mp4"
-    # Brand font for the subtitles: copy Inter next to the subtitles so ffmpeg's libass can load it by name.
+    # Brand fonts for the subtitles (Manrope, Mukta for Hindi): copy them next to the subtitles so ffmpeg's libass can load it by name.
     for f in (pathlib.Path(__file__).resolve().parents[1] / "fonts").glob("*.ttf"):
         if f.name.startswith(("Manrope", "Mukta")):
             (work / f.name).write_bytes(f.read_bytes())
