@@ -65,9 +65,9 @@ def build(scenes, frames, out_dir, lang="en", lines_key="voice"):
     final = out / f"reel_{lang}.mp4"
     # Brand font for the subtitles: copy Inter next to the subtitles so ffmpeg's libass can load it by name.
     for f in (pathlib.Path(__file__).resolve().parents[1] / "fonts").glob("*.ttf"):
-        if f.name.startswith(("Inter", "NotoSansDevanagari")):
+        if f.name.startswith(("Manrope", "Mukta")):
             (work / f.name).write_bytes(f.read_bytes())
-    face = "Noto Sans Devanagari" if lang == "hi" else "Inter"
+    face = "Mukta" if lang == "hi" else "Manrope"
     style = (f"FontName={face},FontSize=12,Bold=0,PrimaryColour=&H00EBF2F8,OutlineColour=&H00141466,BackColour=&H00141466,"
              "BorderStyle=3,Outline=5,Shadow=0,MarginV=78,MarginL=30,MarginR=30,Alignment=2")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "joined.mp4", "-vf", f"subtitles=subs.srt:fontsdir=.:force_style='{style}'",

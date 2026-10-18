@@ -256,31 +256,31 @@
  },
  "files": {
   "carousel": [
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_01.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_02.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_03.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_04.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_05.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_06.png"
+   "out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_01.png",
+   "out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_02.png",
+   "out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_03.png",
+   "out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_04.png",
+   "out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_05.png",
+   "out\\mclaren-et-al-nat-metab-2024\\carousel\\slide_06.png"
   ],
-  "static": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\static.png",
+  "static": "out\\mclaren-et-al-nat-metab-2024\\static.png",
   "reel_frames": [
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_01.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_02.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_03.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_04.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_05.png"
+   "out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_01.png",
+   "out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_02.png",
+   "out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_03.png",
+   "out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_04.png",
+   "out\\mclaren-et-al-nat-metab-2024\\reel_frames\\scene_05.png"
   ],
-  "reel": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_en.mp4",
+  "reel": "out\\mclaren-et-al-nat-metab-2024\\reel_en.mp4",
   "reel_seconds": 33.4,
-  "reel_hi": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\mclaren-et-al-nat-metab-2024\\reel_hi.mp4"
+  "reel_hi": "out\\mclaren-et-al-nat-metab-2024\\reel_hi.mp4"
  },
  "timings": {
   "ingest": 33,
   "extract": 28,
   "write": 75,
-  "render": 1,
-  "reel": 69,
+  "render": 2,
+  "reel": 67,
   "total": 206
  }
 }

@@ -248,31 +248,31 @@
  },
  "files": {
   "carousel": [
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_01.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_02.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_03.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_04.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_05.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_06.png"
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_01.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_02.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_03.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_04.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_05.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\carousel\\slide_06.png"
   ],
-  "static": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\static.png",
+  "static": "out\\wilding-et-al-diabetes-obes-metab-2022\\static.png",
   "reel_frames": [
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_01.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_02.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_03.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_04.png",
-   "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_05.png"
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_01.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_02.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_03.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_04.png",
+   "out\\wilding-et-al-diabetes-obes-metab-2022\\reel_frames\\scene_05.png"
   ],
-  "reel": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_en.mp4",
+  "reel": "out\\wilding-et-al-diabetes-obes-metab-2022\\reel_en.mp4",
   "reel_seconds": 47.1,
-  "reel_hi": "C:\\Users\\ankit\\hacktober-2026\\steer\\ps2\\out\\wilding-et-al-diabetes-obes-metab-2022\\reel_hi.mp4"
+  "reel_hi": "out\\wilding-et-al-diabetes-obes-metab-2022\\reel_hi.mp4"
  },
  "timings": {
   "ingest": 7,
   "extract": 35,
   "write": 79,
   "render": 1,
-  "reel": 118,
+  "reel": 83,
   "total": 240
  }
 }

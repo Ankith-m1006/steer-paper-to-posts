@@ -12,40 +12,49 @@ def main():
         c = json.loads(c_path.read_text(encoding="utf-8"))
         d, f, p, t = c["draft"], c["files"], c["paper"], c["timings"]
         rel = lambda x: pathlib.Path(x).resolve().relative_to(OUT.resolve()).as_posix()
-        slides = "".join(f'<img loading="lazy" src="{rel(s)}" alt="carousel slide {i}">' for i, s in enumerate(f["carousel"], 1))
-        hi = f'<figure><video controls preload="none" poster="{rel(f["reel_frames"][0])}" src="{rel(f["reel_hi"])}"></video><figcaption>Reel · Hindi</figcaption></figure>' if f.get("reel_hi") else ""
+        slides = "".join(f'<a download href="{rel(s)}" title="download slide {i}"><img loading="lazy" src="{rel(s)}" alt="carousel slide {i}"></a>' for i, s in enumerate(f["carousel"], 1))
+        hi = f'<figure><video controls preload="none" poster="{rel(f["reel_frames"][0])}" src="{rel(f["reel_hi"])}"></video><figcaption>Reel · Hindi · <a download href="{rel(f["reel_hi"])}">download</a></figcaption></figure>' if f.get("reel_hi") else ""
+        # One ZIP per paper with every finished post, for anyone who wants the files.
+        import zipfile
+        zpath = c_path.parent / "posts.zip"
+        with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
+            for x in f["carousel"]:
+                z.write(x, "carousel/" + pathlib.Path(x).name)
+            for x in (f["static"], str(c_path.parent / "static_square.png"), f.get("reel"), f.get("reel_hi"), str(c_path.parent / "caption.txt")):
+                if x and pathlib.Path(x).exists():
+                    z.write(x, pathlib.Path(x).name)
         cards.append(f"""<section class="paper">
   <p class="k">{html.escape(p['citation'])} · {len(c['claims'])} verified claims · {len(c['rejected'])} thrown out by the verifier · {len(d['issues'])} flag(s) for the doctor · machine time {t['total']} s</p>
   <h2>{html.escape(d['message'])}</h2>
   <p class="why">{html.escape(d['reasoning'])}</p>
-  <p><a href="{rel(c_path.parent / 'review.html')}">Open the doctor review page →</a> · <a href="{html.escape(p['url'])}">the paper</a></p>
+  <p><a href="{rel(c_path.parent / 'review.html')}">Open the doctor review page →</a> · <a href="{html.escape(p['url'])}">the paper</a> · <a class="dl" download href="{rel(c_path.parent / 'posts.zip')}">Download all posts (ZIP)</a></p>
   <h3>Carousel</h3><div class="strip">{slides}</div>
   <div class="row">
-    <figure><img src="{rel(f['static'])}" alt="static post"><figcaption>Static · 4:5 (1:1 version also made)</figcaption></figure>
-    <figure><video controls preload="none" poster="{rel(f['reel_frames'][0])}" src="{rel(f['reel'])}"></video><figcaption>Reel · English · {f.get('reel_seconds', '')} s</figcaption></figure>
+    <figure><img src="{rel(f['static'])}" alt="static post"><figcaption>Static · 4:5 · <a download href="{rel(f['static'])}">download</a> · <a download href="{rel(str(c_path.parent / 'static_square.png'))}">1:1</a></figcaption></figure>
+    <figure><video controls preload="none" poster="{rel(f['reel_frames'][0])}" src="{rel(f['reel'])}"></video><figcaption>Reel · English · {f.get('reel_seconds', '')} s · <a download href="{rel(f['reel'])}">download</a></figcaption></figure>
     {hi}
   </div>
   <details><summary>Caption, hashtags and Hinglish caption</summary><pre>{html.escape(d['caption'])}\n\n{html.escape(' '.join(d.get('hashtags', [])))}\n\n{html.escape(d.get('caption_hinglish', ''))}</pre></details>
 </section>""")
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Paper in, posts out · steer</title>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Manrope:wght@400;600;700&family=Kalam&display=swap" rel="stylesheet">
 <style>
-body{{margin:0;background:#F5EBDF;color:#351D1D;font:16px/1.55 Inter,system-ui,sans-serif}}
+body{{margin:0;background:#F5EBDF;color:#351D1D;font:16px/1.55 Manrope,system-ui,sans-serif}}
 .wrap{{max-width:1180px;margin:0 auto;padding:36px 20px 80px}}
-h1,h2,h3{{font-family:'Instrument Serif',Georgia,serif;font-weight:400;color:#C04E2A;margin:0}}
+h1,h2,h3{{font-family:Fraunces,Georgia,serif;font-weight:400;color:#C04E2A;margin:0}}
 h1{{font-size:clamp(40px,6vw,64px);line-height:1}} h1 em{{font-style:italic}}
 h2{{font-size:30px;line-height:1.15;margin:6px 0 8px}} h3{{font-size:22px;margin:18px 0 8px}}
 .lead{{max-width:760px;font-size:18px}} .k{{color:#B58777;font-size:13px;margin:0}} .why{{color:#351D1D;max-width:860px}}
-a{{color:#C04E2A}} .paper{{background:#F8F2EB;border:1px solid #E6CBBD;border-radius:24px;padding:24px;margin:26px 0}}
+a{{color:#C04E2A}} .dl{{display:inline-block;background:#C04E2A;color:#F8F2EB;text-decoration:none;border-radius:999px;padding:6px 14px;font-weight:600}} .paper{{background:#F8F2EB;border:1px solid #E6CBBD;border-radius:24px;padding:24px;margin:26px 0}}
 .strip{{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}} .strip img{{height:300px;border-radius:12px;border:1px solid #E6CBBD}}
 .row{{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px}} figure{{margin:0}} figure img{{height:340px;border-radius:12px;border:1px solid #E6CBBD}}
 video{{height:340px;border-radius:12px;background:#661414}} figcaption{{font-size:13px;color:#B58777;margin-top:4px}}
-pre{{white-space:pre-wrap;font:14px/1.5 Inter,sans-serif;background:#F5EBDF;padding:12px;border-radius:12px}}
+pre{{white-space:pre-wrap;font:14px/1.5 Manrope,sans-serif;background:#F5EBDF;padding:12px;border-radius:12px}}
 .steps{{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:22px 0}}
 .steps div{{background:#F8F2EB;border:1px solid #E6CBBD;border-radius:16px;padding:12px;font-size:14px}} .steps b{{color:#C04E2A;display:block}}
 </style></head><body><div class="wrap">
-<p class="k">steer · Steer Club Hackathon · problem statement 2</p>
+<p class="k" style="font-family:Kalam,cursive;font-size:20px;color:#C04E2A">steer · doctor's notes from the research</p>
 <h1>Paper in, <em>posts out.</em></h1>
 <p class="lead">A research paper goes in. A carousel, a static post, English and Hindi reels and captions come out, in Steer's voice, with every line pointing to the sentence and page of the paper it came from. A Steer doctor approves on one page before anything is scheduled.</p>
 <div class="steps"><div><b>1 · Ingest</b>PDF or link, split by page or paragraph</div><div><b>2 · Extract</b>claims with verbatim quotes; code drops any quote or number not in the paper</div>

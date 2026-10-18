@@ -11,9 +11,9 @@ import json
 import pathlib
 
 CSS = """
-body{margin:0;background:#F5EBDF;color:#351D1D;font:15px/1.5 Inter,system-ui,sans-serif}
+body{margin:0;background:#F5EBDF;color:#351D1D;font:15px/1.5 Manrope,system-ui,sans-serif}
 .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 80px}
-h1,h2{font-family:'Instrument Serif',Georgia,serif;font-weight:400;color:#C04E2A;margin:0}
+h1,h2{font-family:Fraunces,Georgia,serif;font-weight:400;color:#C04E2A;margin:0}
 h1{font-size:40px}h2{font-size:28px;margin:34px 0 12px}
 .meta{color:#B58777;margin:6px 0 18px}.meta a{color:#B58777}
 .msg{background:#F8F2EB;border:1px solid #E6CBBD;border-radius:16px;padding:16px 18px;margin:12px 0}
@@ -64,7 +64,7 @@ def page(name, paper, claims, rejected, draft, files, timings, out_dir):
     claims_rows = "".join(f"<tr><td>{c['id']}</td><td>{html.escape(c['finding'])}</td><td class='q'>{html.escape(c['quote'])}</td><td>{html.escape(c['loc'])}</td></tr>" for c in claims)
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Review · {html.escape(paper['citation'])}</title>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body><div class="wrap">
 <h1>Doctor review · {html.escape(paper['citation'])}</h1>
 <div class="meta">{html.escape(paper['title'])} · licence {html.escape(paper['license'])} · <a href="{html.escape(paper['url'])}">{html.escape(paper['url'])}</a><br>

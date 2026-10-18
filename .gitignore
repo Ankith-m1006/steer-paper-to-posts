@@ -7,3 +7,6 @@ out/*.err
 out/A_*
 pipeline/try_write.py
 papers_bc.txt
+redo_all.log
+redo_all.err
+out/_preview/
