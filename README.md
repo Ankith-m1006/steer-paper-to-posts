@@ -35,10 +35,10 @@ verified claims (+ a list of rejected ones, with the reason)
   │              -> one automatic rewrite; anything still wrong is flagged for the doctor
   ▼
 checked copy
-  │  render.py   Pillow renders in the Steer brand pack (cream, rust serif with italics, Inter body,
-  │              Caveat field-note accents); source + page printed on every slide that makes a claim
+  │  render.py   Pillow renders in the Steer brand pack (doctor's-note pages: Fraunces serif with italics, Manrope body,
+  │              Kalam handwriting, ruled paper); source + page stamped printed on every slide that makes a claim
   │  reel.py     edge-tts neural voices (en-IN Neerja, hi-IN Swara) per scene, ffmpeg slow-zoom motion,
-  │              story progress bars, burned-in subtitles (Inter / Noto Sans Devanagari)
+  │              story progress bars, burned-in subtitles (Manrope / Mukta)
   ▼
 out/<paper>/ carousel/*.png  static.png  static_square.png  reel_en.mp4  reel_hi.mp4  caption.txt  content.json
   │  review.py   review.html: every line, the quote it rests on, its page, flags; approve boxes -> approvals.json
@@ -79,4 +79,4 @@ Machine time per paper is printed on each review page (about 3-5 minutes: extrac
 
 ## Tools
 
-Python, pypdf, Pillow, Europe PMC REST API, Google Gemini (gemini-3.5-flash through AI Studio) for extraction, writing and the judge pass, edge-tts neural voices, ffmpeg. Fonts: Instrument Serif, Inter, Caveat, Noto Sans Devanagari (SIL Open Font License). Claude (Anthropic) was used as an AI coding assistant to build the pipeline. Solo build by Ankith M.
+Python, pypdf, Pillow, Europe PMC REST API, Google Gemini (gemini-3.5-flash through AI Studio) for extraction, writing and the judge pass, edge-tts neural voices, ffmpeg. Fonts: Fraunces, Manrope, Kalam, Mukta, Tiro Devanagari Hindi (SIL Open Font License). Claude (Anthropic) was used as an AI coding assistant to build the pipeline. Solo build by Ankith M.
